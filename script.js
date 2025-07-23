@@ -1,3 +1,8 @@
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+
 function page3Animation() {
     let pageelem = document.querySelector(".page3");
     let fixedimg = document.querySelector(".fixed-image");
@@ -38,7 +43,7 @@ menu.addEventListener("click",function(){
 function intro(){
     let intro = document.querySelector(".intro");
 setTimeout(function(){
-    intro.style.top = "-100%";
+    intro.style.top = "-110%";
 },3000);
 }
 
