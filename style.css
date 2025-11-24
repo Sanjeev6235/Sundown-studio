@@ -473,7 +473,7 @@ nav h3 {
 }
 
 .page6 {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
 }
 
@@ -602,6 +602,7 @@ footer .square2 {
     color: transparent;
     font-size: 6vw;
     position: absolute;
+    background-clip: text;
     -webkit-background-clip: text;
     opacity: 0;
     animation-name: intro;
